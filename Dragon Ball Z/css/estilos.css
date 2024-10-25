@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://images.hdqwalls.com/download/son-goku-dragon-ball-z-minimal-cu-1920x1080.jpg);
+    background-size: cover;
+    background-position:top;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 360px;
+    height: 330px;
+}
+
+#botoes button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+    text-shadow: 0 10 50;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+#botoes button:hover{
+    background-color: orange;
+    color: blue;
+    transform: translateY(-5px);
+}
+
+#logo_dbz{
+    width: 440px;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 230px;
+}
